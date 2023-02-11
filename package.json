@@ -1,14 +1,28 @@
 {
-  "name": "cypress-test",
+  "name": "versational",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "shamil.g",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^9.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaykh102/Cypress-test.git"
+  },
+  "keywords": [
+    "versational",
+    "cypress",
+    "tests",
+    "playlists"
+  ],
+  "bugs": {
+    "url": "https://github.com/Shaykh102/Cypress-test/issues"
+  },
+  "homepage": "https://github.com/Shaykh102/Cypress-test#readme",
+  "description": ""
 }
