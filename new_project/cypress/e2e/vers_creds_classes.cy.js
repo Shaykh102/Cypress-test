@@ -20,9 +20,9 @@ describe('Login form', () => {
     it('Should allow a user to log in with valid credentials', () => {
         const loginForm = new LoginFormPage();
 
-        cy.visit('/login');
+        cy.visit('https://stage.versational.inteligems.io/login');
 
-        loginForm.fillForm('testuser', 'testpassword', 'testpassword');
+        loginForm.fillForm('shamil.g@u-tor.com', 'Qwety123', );
         loginForm.submitForm();
 
         // Check if the user is redirected to the home page after logging in
